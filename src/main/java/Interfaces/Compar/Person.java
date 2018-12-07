@@ -13,6 +13,10 @@ public class Person implements Comparable<Person>{
         this.name=name;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     @Override
     public String toString() {
         return "Person{" +

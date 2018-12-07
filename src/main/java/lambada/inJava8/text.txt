@@ -1,0 +1,50 @@
+Functions as a values
+How to write lambada
+
+aBlockOfCode = public void perform(){
+System.out.println("Hello world")
+}
+
+
+public we dont need modifier
+
+aBlockOfCode =  void perform(){
+System.out.println("Hello world")
+}
+
+
+perform() name we dont need because we assign it to variable
+
+aBlockOfCode =  void (){
+System.out.println("Hello world")
+}
+
+return type we dont have to provide
+
+aBlockOfCode = (){
+System.out.println("Hello world")
+}
+
+aBlockOfCode = ()->{
+System.out.println("Hello world")
+}
+
+aBlockOfCode = ()-> System.out.println("Hello world")  {} only if one line
+//////////////////////////////////////////////////////////////////////////
+
+doubleNumberFunction  = public int double (int a) {
+return a*2
+}
+
+doubleNumberFunction  =  (int a)-> a*2
+
+
+addFunction  =  (int a, int b)-> a + b
+
+saveDevideFunction = (int a ,int b )->{
+if (b == 0){ return 0;}
+return a/b;
+}
+
+
+
